@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Is your birrthday Lucky | Mark 11</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <span class="nav-brand"> I'm Prabhjot </span>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="https://prabhjot-neog-portfolio.netlify.app/"
+            >Portfolio</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://github.com/PsKalsi19/Is-your-birthday-lucky"
+            >View Code</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1 class="hero-heading hero-heading-highlight">
+        Is your Birthday Lucky 🎉
+      </h1>
+      <h3 class="hero-subheading">
+        Let's find out if your birthday is lucky or not, enter your birthday and
+        your lucky number and we will let you know.
+      </h3>
+      <p class="hero-subheading">
+        <strong> Note: </strong> We have
+        <span class="hero-subheading-highlight">no intention</span> of saving
+        your birth details.
+      </p>
+    </header>
+
+    <div id="formAndOutput" class="container container-center">
+      <div class="date-wrapper">
+        <div class="label-div">
+          <label class="label" for="birth-date"> Date of Birth:</label>
+        </div>
+        <input class="input-field" id="birth-date" type="date" />
+      </div>
+      <div class="number-wrapper">
+        <div class="label-div">
+          <label class="label" for="lucky-number"> Lucky Number:</label>
+        </div>
+        <input class="input-field" id="lucky-number" min="0" type="number" />
+      </div>
+      <div id="error" class="section-error"></div>
+
+      <div class="button-wrapper">
+        <button id="submit-button" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="container container-center">
+        <p class="output-note">Your result will be shown below 👇</p>
+        <div class="output-container">
+          <img id="happy" class="bg-img" src="happy.svg" alt="happy" />
+          <textarea disabled id="result"> </textarea>
+          <img id="sad" class="bg-img" src="sad.svg" alt="sad" />
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+    <footer class="footer">
+      <p class="footer-header">We can connect on:</p>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/PsKalsi19">Github</a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/prabhjot-kalsi-8390a6240/"
+            >Linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/kalamaurcode">Twitter</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
