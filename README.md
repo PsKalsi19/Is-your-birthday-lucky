@@ -8,4 +8,4 @@
 
 > Bonus Work Done
 - Error handling for not allowing user to select dob if that date exceeds current date.
-- Added privacy notice.(Not sure if I did it correctly.)
+- Added privacy notice.(Not sure if I did it correctly)
